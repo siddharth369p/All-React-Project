@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Item = (props) => {
+const Item = ({fooditem}) => {
   return (
-    <li>{props.fooditem}</li>
+    <span className='items'>{fooditem} </span>
   )
 }
 

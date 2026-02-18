@@ -6,6 +6,16 @@ h1{
 
 }
 
+.todo-container{
+    
+  width: 700px;
+  margin: 50px auto;   
+  padding: 20px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(177, 16, 16, 0.15);
+}
+
 input{
   width: 77%;
 }
