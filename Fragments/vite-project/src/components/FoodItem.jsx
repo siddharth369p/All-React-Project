@@ -5,7 +5,8 @@ const FoodItem = ({ items }) => {
     <>
       {
         items.map((item) => (
-          <Item key={item} fooditem={items} />
+          <Item key={item} fooditem={items}
+          handleBuyButton={()=>console.log(`${item} bought `)} />
         ))
       }
     </>
