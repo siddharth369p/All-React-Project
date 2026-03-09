@@ -17,7 +17,7 @@ const CreatePost = ({ setSelectedTab }) => {
     const postBody = postBodyElement.current.value;
     const reactions = reactionsElement.current.value;
     const tags = tagsElement.current.value.split(" ");
-    
+    // console.log(userId,postTitle)
 
     userIdElement.current.value = "";
     postTitleElement.current.value = "";
